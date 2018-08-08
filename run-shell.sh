@@ -3,6 +3,7 @@ sudo docker run \
   -v openvpn:/mnt/openvpn \
   -p 1194:1194/udp \
   --network=vpn \
+  --ip=172.20.108.2 \
   --cap-add=NET_ADMIN \
   --device=/dev/net/tun \
   -it \
