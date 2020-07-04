@@ -157,6 +157,7 @@ sudo docker run \
   --network=vpn \
   --cap-add=NET_ADMIN \
   --device=/dev/net/tun \
+  --restart="unless-stopped" \
   -d \
   nikoudel/openvpn \
   sh /mnt/openvpn/start-vpn.sh
