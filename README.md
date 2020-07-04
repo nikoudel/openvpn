@@ -118,7 +118,6 @@ tls-auth "C:\\Program Files\\OpenVPN\\config\\ta.key" 1
 remote-cert-tls server
 cipher AES-256-CBC
 auth-nocache
-comp-lzo
 verb 3
 mute 20
 ```
